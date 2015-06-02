@@ -9,8 +9,8 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         $user = User::create([
-            'email' => 'pingpong.labs@gmail.com',
-            'password' => 'secret',
+            'email' => 'admin@example.com',
+            'password' => 'admin',
         ]);
 
         $user->addRole(1);
